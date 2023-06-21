@@ -1,0 +1,164 @@
+body {
+    width: 1280px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: white
+}
+
+
+
+nav {
+    width: 99%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: solid 0.4px rgb(224, 157, 157);
+}
+
+.main-asidecontents {
+    width: 95%;
+    margin: 5%;
+    background-color: rgb(255, 232, 193);
+}
+
+/*  Nav より上 */
+/* ---------------------------- */
+/*  Nav より下 */
+
+.tab-lists {
+    margin: 10px;
+    /* text-align: center; */
+    width: 90%;
+    padding: 0 20px;
+}
+
+.tab-lists input {
+    width: 23%;
+}
+
+.tab-lists select {
+    width: 23%;
+}
+
+.main-contents {
+    display: flex;
+    color:black
+}
+
+aside {
+    text-align: left;
+    vertical-align: middle;
+    width: 34%;
+    margin: 0.1em;
+}
+
+.nyuuryoku {
+    width: 60px;
+    border: solid 2px;
+    margin:1%;
+}
+
+
+.rei {
+    width: 20px;
+    border: solid 2px;
+    margin:1%;
+}
+
+.aside-content1,
+.aside-content2,
+.aside-content3 {
+    border: solid 1.5px rgb(248, 196, 196);
+    padding-top: 3%;
+    padding-left: 5%;
+    height: 300px;
+    font-size:  20px; ;
+}
+
+
+/* category の調整CSS */
+select {
+    font-size: 25px;
+}
+
+
+
+.lunch-image {
+    width: 230px;
+    height:70%;
+    margin: 1%;
+}
+
+
+
+/* main コードはここから～ */
+
+main {
+    width: 84%;
+    height: 1000px;
+    margin: 20px;
+    margin-top: 0px;
+    border: solid 1.5px rgb(248, 196, 196);
+}
+
+.h1-wrap {
+    width: 500px;
+    padding-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+/* main-contents1 */
+
+.result {
+    width: 93%;
+    height: auto;
+    margin: 5%;
+    border: solid 1.5px rgb(248, 196, 196);
+    background-color: #ffbd80 ;
+}
+
+.result h1 {
+    font-size: 20px;
+}
+
+.result li {
+    font-size: 15px;
+}
+
+
+main h1,
+li {
+    text-align: left;
+}
+
+
+
+.food-image {
+    width: 55%;
+    object-fit: cover;
+    margin: 10px
+}
+
+section {
+    display: flex;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+}
+
+.section-contents {
+    padding-top: 2%;
+}
+
+section h1 {
+    font-size: 30px;
+}
+
+
+
+
+.food-movie {
+    margin: 4px
+}
