@@ -22,19 +22,15 @@
   </nav>
 
 
-  <!-- <input type ="button"value ="ボタン" onclick="testJavascipt()"> -->
-  <!-- <button id="remove-button">
-    選んだお店の表示を消す
-  </button> -->
 
 
 
   <div class="main-asidecontents">
     <div class="tab-lists">
-      <input type="tab-radio" name="tab_itemA" value="グルメ">
-      <input type="tab-radio" name="tab_itemB" value="観光スポット">
-      <input type="tab-radio" name="tab_itemC" value="温泉">
-      <input type="tab-radio" name="tab_itemD" value="趣味">
+      <input type="tab-radio" name="tab_itemA" value="グルメ" class="input-box">
+      <input type="tab-radio" name="tab_itemB" value="観光スポット" class="input-box">
+      <input type="tab-radio" name="tab_itemC" value="温泉" class="input-box">
+      <input type="tab-radio" name="tab_itemD" value="趣味" class="input-box">
     </div>
 
 
@@ -85,11 +81,14 @@
       <!-- main コードはここから下 -->
 
       <main>
-        <button id="remove-button">
-          選んだお店だけ表示する
-        </button>
-        <div style="width:auto-10px;height:1000px;overflow:auto;">
+        <div class="area-select">
           <h1 class="h1-wrap">エリア</h1>
+          <button id="remove-button">
+            選んだお店だけ表示する
+          </button>
+        </div>
+        <div style="width:auto-2vw;height:100vh;overflow:auto;">
+
           <select id="category" name="category" class="category">
             <option value="1">東京</option>
             <option value="2">大阪</option>

@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  text-align: center;
+  margin:auto;}
+
+.numbers {
+  width:1000px;
+  display: inline;
+  margin:2%;}
+
+.img-child0{width: 25%;margin:2%}
+.img-child1{width: 25%;margin:2%}
+.img-child2{width: 25%;margin:2%}
+.img-child3{width: 25%;margin:2%}
+.img-child4{width: 25%;margin:2%}
+.img-child5{width: 25%;margin:2%}
+.img-child6{width: 25%;margin:2%}
+.img-child7{width: 25%;margin:2%}
+.img-child8{width: 25%;margin:2%}
+.img-child10{width: 25%;margin:2%}
+
+/* ＋アイコン */
+.img-child9{width: 25%;margin:2%}
+
+/* ＋アイコン */
+.img-child11{width: 25%;margin:2%}
+
+.numbers-wrap{
+  border: solid 3px;margin:2%;
+  width: 900px;
+  margin:auto;}

@@ -1,3 +1,8 @@
+.html {
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
   width: 1280px;
   text-align: center;
@@ -5,7 +10,12 @@ body {
   background-color: white
 }
 
+#remove-button {
+  width: 35vw;
+  height: 10vh;
+  font-size: 2.5vw;
 
+}
 
 nav {
   width: 100%;
@@ -31,7 +41,11 @@ nav li {
   background-color: rgb(255, 232, 193);
 }
 
+.area-select {
 
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /*  Nav より上 */
@@ -40,10 +54,9 @@ nav li {
 
 .tab-lists {
   margin: 20px;
-  /* text-align: center; */
   width: 90%;
-  /* padding: 0 50px; */
-  padding-top: 30px;
+  height: 100%;
+  padding-top: 2.5vh;
 }
 
 .tab-lists input {
@@ -56,9 +69,18 @@ nav li {
   width: 23%;
 }
 
+.input-box {
+  width: 25%;
+  height: 5vh;
+  margin: 1.5% auto;
+
+}
+
+
 .main-contents {
   display: flex;
-  color: black
+  color: black;
+  /* padding-top: 5vh; */
 }
 
 aside {
@@ -93,6 +115,12 @@ aside {
 }
 
 
+#category {
+  width: 25vw;
+  height: 6vh;
+  text-align: center;
+}
+
 /* category の調整CSS */
 select {
   font-size: 25px;
@@ -119,10 +147,10 @@ main {
 }
 
 .h1-wrap {
-  width: 500px;
-  padding-top: 30px;
-  margin-left: 30px;
-  font-size: 20px;
+  width: 30%;
+  margin: auto;
+  font-size: 2.5vw;
+  text-align: center;
 }
 
 
