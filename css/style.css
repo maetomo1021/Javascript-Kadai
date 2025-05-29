@@ -12,7 +12,7 @@ body {
 
 #remove-button {
   width: 35vw;
-  height: 10vh;
+  height: 8vh;
   font-size: 2.5vw;
 
 }
@@ -78,6 +78,7 @@ nav li {
 
 
 .main-contents {
+  height: auto;
   display: flex;
   color: black;
   /* padding-top: 5vh; */
@@ -116,8 +117,8 @@ aside {
 
 
 #category {
-  width: 25vw;
-  height: 6vh;
+  width: 12vw;
+  height: 2vh;
   text-align: center;
 }
 
